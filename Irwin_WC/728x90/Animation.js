@@ -96,6 +96,7 @@ home_animation = (function() {
 	
 	function frame5()
 	{
+		 endFrame = 1;
 
 		TweenLite.to(curved, 0.2, {opacity:1, delay: 0, });	
 		TweenLite.to(learn_more, 0.2, {opacity:1, left:0, delay: 0, });		
@@ -108,6 +109,25 @@ home_animation = (function() {
 	init();
 });
 
+
+var endFrame = 0;
+
+container.onmouseover = function() {
+	if(endFrame == 1)
+	{
+ 		TweenLite.to(learn_more_rollover, 0.2, {opacity:1});
+ 		TweenLite.to(learn_more, 0.2, {opacity:0});
+	}
+
+}
+
+container.onmouseout = function() {
+	if(endFrame == 1)
+	{	
+ 		TweenLite.to(learn_more_rollover, 0.2, {opacity:0});
+ 		TweenLite.to(learn_more, 0.2, {opacity:1});
+	}
+}
 
 
 

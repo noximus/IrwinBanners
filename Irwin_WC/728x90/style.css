@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.container {
+#container {
 	position: absolute;
 	width: 726px;
 	height: 88px;
@@ -58,5 +58,13 @@ position: absolute;
 top:60px;
 opacity:0;
 }
+
+#learn_more_rollover {
+	position: absolute;
+    top: 0px;
+    left:0px;
+    opacity:0;
+}
+
 
 
