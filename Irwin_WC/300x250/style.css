@@ -24,7 +24,7 @@ body{
 	cursor: pointer;
 }
 
-#threeX, #legal_line, #tool, #logo, #gripping_power, #circle_tool, #four_contact, #for_maximum {
+#threeX, #legal_line, #tool, #logo, #newCta, #gripping_power, #circle_tool, #four_contact, #for_maximum {
 position: absolute;
 left:0px;
 top:0px;
@@ -48,10 +48,11 @@ z-index:0;
     left:-300px;
 }
 
-#logo {
+#logo, #newCta {
 
 	z-index:1;
 }
+
 
 #learn_more_rollover {
 	position: absolute;
