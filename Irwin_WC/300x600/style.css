@@ -59,4 +59,10 @@ position: absolute;
 top:80px;
 }
 
+#learn_more_rollover {
+	position: absolute;
+    top: 0px;
+    left:0px;
+    opacity:0;
+}
 
