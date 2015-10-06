@@ -100,7 +100,7 @@ home_animation = (function() {
 	
 	function frame5()
 	{
-
+		endFrame = 1;
 		TweenLite.to(curved, 0.2, {opacity:1, delay: 0, });	
 		TweenLite.to(learn_more, 0.2, {opacity:1, left:0, delay: 0, });		
 		//TweenLite.delayedCall(1.7, frame6);
@@ -120,6 +120,7 @@ container.onmouseover = function() {
 	{
  		TweenLite.to(learn_more_rollover, 0.2, {opacity:1});
  		TweenLite.to(learn_more, 0.2, {opacity:0});
+ 		
 	}
 
 }
