@@ -113,7 +113,24 @@ home_animation = (function() {
 });
 
 
+var endFrame = 0;
 
+container.onmouseover = function() {
+	if(endFrame == 1)
+	{
+ 		TweenLite.to(learn_more_rollover, 0.2, {opacity:1});
+ 		TweenLite.to(learn_more, 0.2, {opacity:0});
+	}
+
+}
+
+container.onmouseout = function() {
+	if(endFrame == 1)
+	{	
+ 		TweenLite.to(learn_more_rollover, 0.2, {opacity:0});
+ 		TweenLite.to(learn_more, 0.2, {opacity:1});
+	}
+}
 
 
 // If true, start function. If false, listen for INIT.
