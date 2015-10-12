@@ -24,12 +24,15 @@ body{
 	cursor: pointer;
 }
 
-#threeX, #legal_line, #tool, #logo, #newCta, #gripping_power, #circle_tool, #four_contact, #for_maximum, #learn_more, #four_contact {
+#threeX, #legal_line, #tool, #logo, #newCta, #gripping_power, #circle_tool, #four_contact, #for_maximum, #learn_more{
 position: absolute;
 left:0px;
 top:0px;
 opacity:0;
 z-index:-1;
+}
+#threeX, #gripping_power{
+	z-index: 2;
 }
 
 /* Blur images  */
@@ -43,9 +46,11 @@ z-index:-1;
 #logo, #newCta {
 	z-index:1;
 }
-#for_maximum {
-  position: absolute;
-  opacity:0;
+#for_maximum, #four_contact {
+  left:-200px;
+}
+#circle_tool{
+	top:-80px;
 }
 
 #learn_more_rollover {

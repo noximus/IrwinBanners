@@ -55,8 +55,8 @@ home_animation = (function() {
 		TweenLite.to(tool, 0.5, {opacity:1, scaleX:1, scaleY:1, delay: 0.1, ease: Expo.easeOut});		
 		TweenLite.to(logo, 0.5, {opacity:1, delay: 0.3});		
 		TweenLite.to(legal_line, 0.5, {opacity:1, delay: 0.4});	
-		TweenLite.to(threeX, 0.5, {opacity:1, scaleX:1, scaleY:1, delay: 0.5, ease: Expo.easeOut});	
-		TweenLite.to(gripping_power, 0.5, {opacity:1, scaleX:1, scaleY:1, delay: 0.5, ease: Expo.easeOut});		
+		TweenLite.to(threeX, 0.9, {opacity:1, scaleX:1, scaleY:1, delay: 0.5, ease: Expo.easeOut});	
+		TweenLite.to(gripping_power, 0.9, {opacity:1, scaleX:1, scaleY:1, delay: 0.5, ease: Expo.easeOut});		
 		TweenLite.delayedCall(3, frame2);
 	}
 	
@@ -72,10 +72,10 @@ home_animation = (function() {
 	function frame3()
 	{	
 
-		TweenLite.to(circle_tool, 0.8, {opacity:1, delay: 0.3, ease: Expo.easeOut});		
+		TweenLite.to(circle_tool, 0.8, {opacity:1, top:0, delay: 0.3, ease: Expo.easeOut});		
 		TweenLite.to(four_contact, 0.5, {opacity:1, left: 0, delay: 0, ease: Expo.easeOut});	
 		TweenLite.to(for_maximum, 0.5, {opacity:1, left:0, delay: 0, ease: Expo.easeOut});	
-		TweenLite.delayedCall(3, frame4);
+		// TweenLite.delayedCall(3, frame4);
 	}
 	
 	function frame4()
