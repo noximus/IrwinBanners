@@ -24,7 +24,7 @@ body{
 	cursor: pointer;
 }
 
-#threeX, #legal_line, #tool, #logo, #gripping_power, #circle_tool, #four_contact, #for_maximum,#learn_more_rollover,#for_maximum {
+#threeX, #legal_line, #tool, #logo, #gripping_power, #circle_tool, #for_maximum,#learn_more_rollover {
   position: absolute;
   left:0px;
   top:0px;
@@ -33,7 +33,7 @@ body{
 }
 
 /* Blur images  */
-#tool_blur, #threeX_blur, #gripping_power_blur, #curved, #learn_more, #four_contact   {
+#tool_blur, #threeX_blur, #gripping_power_blur, #curved, #learn_more, #four_contact{
   position: absolute;
   left:0px;
   top:0px;
@@ -43,6 +43,11 @@ body{
 #logo {
 	z-index:1;
 }
-
+#for_maximum, #four_contact{
+	left:-140px;
+}
+#circle_tool{
+	top:-130px;
+}
 
 
