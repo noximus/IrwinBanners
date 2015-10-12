@@ -74,9 +74,9 @@ home_animation = (function() {
 	function frame3()
 	{	
 
-		TweenLite.to(circle_tool, 0.6, {opacity:1, delay: .4, ease: Expo.easeOut});		
-		TweenLite.to(four_contact, 0.5, {opacity:1, ease: Expo.easeOut});	
-		TweenLite.to(for_maximum, 0.5, {opacity:1, ease: Expo.easeOut});	
+		TweenLite.to(circle_tool, 0.5, {opacity:1, top:0, delay: .4, ease: Expo.easeOut});		
+		TweenLite.to(four_contact, 0.5, {opacity:1, left:0, ease: Expo.easeOut});	
+		TweenLite.to(for_maximum, 0.5, {opacity:1, left:0, ease: Expo.easeOut});	
 		TweenLite.delayedCall(3, frame4);
 	}
 	

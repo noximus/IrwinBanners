@@ -24,7 +24,7 @@ body{
 	cursor: pointer;
 }
 
-#threeX, #legal_line, #tool, #logo, #newCta, #gripping_power, #circle_tool, #four_contact, #for_maximum, #learn_more, #four_contact {
+#threeX, #legal_line, #tool, #logo, #newCta, #gripping_power, #circle_tool, #four_contact, #for_maximum, #learn_more {
 position: absolute;
 left:0px;
 top:0px;
@@ -41,13 +41,6 @@ opacity:0;
 z-index:0;
 }
 
-
- {
-	position: absolute;
-    top: 0;
-    left:-300px;
-}
-
 #logo, #newCta {
 
 	z-index:1;
@@ -61,8 +54,11 @@ z-index:0;
 }
 
 
-#for_maximum {
-position: absolute;
+#for_maximum, #four_contact {
+	left:-141px;
+}
+#circle_tool{
+	top:-130px;
 }
 
 
