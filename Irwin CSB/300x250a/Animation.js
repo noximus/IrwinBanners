@@ -4,7 +4,6 @@ var BanTimeline = {
   f3_img1: document.getElementById("f3_img1"),
   f4_img1: document.getElementById("f4_img1"),
   f5_img1: document.getElementById("f5_img1"),
-  f6_img1: document.getElementById("f6_img1"),
   init: function () {
     // initial settings for banner frame 1.  In case banner needs to restart.  add as many as you can to CSS first so Banner doesn't jump
 
@@ -37,10 +36,10 @@ var BanTimeline = {
   frame5: function () {
     TweenLite.to(f5_img1,.2, {opacity:1, display: 'block', delay: 0, ease: Quad.easeIn });
     TweenLite.to(f5_txt1,.1, {opacity:1, display: 'block', delay: .2, ease: Quad.easeIn });
-    TweenLite.to(f5_txt2,.1, {opacity:1, display: 'block', delay: .4, ease: Quad.easeIn });
-    TweenLite.to(f5_txt3,.2, {opacity:1, left:0, display: 'block', delay: .6, ease: Quad.easeIn });
-    TweenLite.to(f5_txt4,.2, {opacity:1, left:0, display: 'block', delay: .8, ease: Quad.easeIn });
-    TweenLite.to(f6_img1,.1, {opacity:1, display: 'block', delay: 1, ease: Quad.easeIn });
+    TweenLite.to(f5_txt2,.1, {opacity:1, display: 'block', delay: .2, ease: Quad.easeIn });
+    TweenLite.to(f5_txt3,.3, {opacity:1, left:0, display: 'block', delay: .8, ease: Quad.easeOut });
+    TweenLite.to(f5_txt4,.3, {opacity:1, left:0, display: 'block', delay: .8, ease: Quad.easeOut });
+    TweenLite.to(f1_img1,.8, {left:-313, display: 'block', delay: .2, ease: Quad.easeOut });
   }
 };
 BanTimeline.init();
