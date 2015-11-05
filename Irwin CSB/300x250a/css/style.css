@@ -7,3 +7,9 @@ body{margin:0;}
 #f1_img2{top:12px;left:22px;}
 #f4_img1{top:12px;left:300px;}
 #f6_img1{left:130px;}
+
+#f5_txt4, #f5_txt3{
+position: absolute;
+left:-200px;
+
+}
