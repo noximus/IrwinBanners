@@ -22,11 +22,11 @@ var BanTimeline = {
     TweenLite.delayedCall(.5, BanTimeline.frame3);
   },
   frame3: function () {
-    TweenLite.to(f3_img1, .2, {opacity:1, display: 'block', ease: Quad.easeOut});
-    TweenLite.to(f2_img1, .5, {scaleX:.01, scaleY:.01,left:-75,top:-95, delay: 0, ease: Quad.easeIn});
-    TweenLite.to(f3_img1, .5, {scaleX:.01, scaleY:.01,left:-75,top:-95, delay: 0, ease: Quad.easeIn});
+    // TweenLite.to(f3_img1, .2, {opacity:1, display: 'block', ease: Quad.easeOut});
+    TweenLite.to(f2_img1, 1, {scaleX:.01, scaleY:.01,left:-75,top:-95, delay: 0, ease: Quad.easeOut});
+    // TweenLite.to(f3_img1, 1, {scaleX:.01, scaleY:.01,left:-75,top:-95, delay: 0, ease: Quad.easeIn});
    
-    TweenLite.delayedCall(.7, BanTimeline.frame4);
+    TweenLite.delayedCall(1.7, BanTimeline.frame4);
   },
   frame4: function () {
     TweenLite.to(f4_img1, .5, {left:22, delay: 0, ease: Quad.easeInOut});
