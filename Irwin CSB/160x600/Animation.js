@@ -8,7 +8,7 @@ var BanTimeline = {
     // run animation after init is done. 
     TweenLite.to(f1_img1, 0, {left:60, scaleX:1.3, scaleY:1.3});
     // TweenLite.to(f2_img1, 0, {left:-20, top:160, scaleX:1.5, scaleY:1.5});
-    TweenLite.to(blurSaw, 0, {left:10, top:180, scaleX:1.5, scaleY:1.5});
+    TweenLite.to(blurSaw, 0, {left:10, top:190, scaleX:1.5, scaleY:1.5});
 
     BanTimeline.frame1();
   },
