@@ -1,0 +1,17 @@
+  @charset "UTF-8";
+/* CSS Document */
+body{margin:0;}
+#container {box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;position: absolute;width:728px;height:90px; border:solid;border-color:#000;border-width:1px;overflow:hidden;}
+.show{position: absolute;display:block;opacity:1;}
+.hidden{position: absolute;display:none;opacity:0;}
+#f1_img2{top:0px;left:0px;}
+#f4_img1{top:0px; left:0px; z-index:1;}
+#f6_img1{left:130px;}
+#text_background {z-index:-1;}
+#f5_txt4, #f5_txt3{
+position: absolute;
+
+}
+#f1_img1 {
+z-index:-2;
+}
