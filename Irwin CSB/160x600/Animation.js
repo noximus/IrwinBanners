@@ -6,9 +6,9 @@ var BanTimeline = {
     // initial settings for banner frame 1.  In case banner needs to restart.  add as many as you can to CSS first so Banner doesn't jump
 
     // run animation after init is done. 
-    TweenLite.to(f1_img1, 0, {left:805, scaleX:5, scaleY:5});
-    TweenLite.to(f2_img1, 0, {left:196, top:231, scaleX:1.7, scaleY:1.7});
-
+    TweenLite.to(f1_img1, 0, {left:60, scaleX:1.3, scaleY:1.3});
+    // TweenLite.to(f2_img1, 0, {left:-20, top:160, scaleX:1.5, scaleY:1.5});
+    TweenLite.to(blurSaw, 0, {left:10, top:180, scaleX:1.5, scaleY:1.5});
 
     BanTimeline.frame1();
   },
@@ -21,8 +21,9 @@ var BanTimeline = {
     TweenLite.to(f1_img2, .5, {opacity:1, left:-300, display: 'block', delay: 0, ease: Quad.easeInOut});
 
     TweenLite.to(f1_img1, .5, {left:0, scaleX:1, scaleY:1, ease: Quad.easeInOut });
-    TweenLite.to(f2_img1, .5, {left:0, top:0, scaleX:1, scaleY:1, ease: Quad.easeInOut});
-    TweenLite.to(f2_img1, 1, {scaleX:.01, scaleY:.01,left:-75,top:-95, delay: 0, ease: Quad.easeOut});
+    // TweenLite.to(f2_img1, 0, {display:"none", ease: Quad.easeInOut});
+    TweenLite.to(blurSaw, 0, {display:"block",opacity:1, delay:.5, ease: Quad.easeInOut});
+    TweenLite.to(blurSaw, 1, {scaleX:.05, scaleY:.05,left:-165,top:-20, delay: .5, ease: Quad.easeOut});
 
     TweenLite.delayedCall(.8, BanTimeline.frame3);
   },
@@ -41,7 +42,7 @@ var BanTimeline = {
     TweenLite.to(f1_img2,.8, {left:0,  display: 'block', delay: .2, ease: Quad.easeOut });
     TweenLite.to(f5_txt3,.3, {opacity:1, left:0, display: 'block', delay: .8, ease: Quad.easeOut });
     TweenLite.to(f5_txt4,.3, {opacity:1, left:0, display: 'block', delay: .8, ease: Quad.easeOut });
-    TweenLite.to(f1_img1,.8, {left:-313, display: 'block', delay: .2, ease: Quad.easeOut });
+    TweenLite.to(f1_img1,.8, {left:-280, display: 'block', delay: .2, ease: Quad.easeOut });
   }
 };
 
