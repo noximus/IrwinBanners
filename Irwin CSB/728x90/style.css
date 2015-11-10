@@ -14,4 +14,9 @@ position: absolute;
 }
 #f1_img1 {
 z-index:-2;
+left:700px;
+}
+#saw{
+	left: 590px;
+	top: 100px;
 }
