@@ -23,18 +23,19 @@ var BanTimeline = {
     TweenLite.to(bg, .5, {left:550, scaleX:1, scaleY:1, ease: Quad.easeInOut });
     // TweenLite.to(f2_img1, .5, {left:0, top:0, scaleX:1, scaleY:1, ease: Quad.easeInOut});
     TweenLite.to(saw, 1.2 , {scaleX:.01, scaleY:.01,left:440,top:-89, delay: 0, ease: Quad.easeOut});
-     TweenLite.to(sawCut, 1.6 , {opacity:1,delay: 0, ease: Quad.easeOut});
+     TweenLite.to(sawCut, 1 , {opacity:1,delay: .6, ease: Quad.easeOut});
     TweenLite.delayedCall(.8, BanTimeline.frame3);
   },
 
   frame3: function () {
+
     TweenLite.to(f4_img1, .1, {opacity:1, display: 'block', delay: 0, ease: Quad.easeInOut});
     TweenLite.to(f4_img2, .1, {opacity:1, display: 'block', delay: 0.2, ease: Quad.easeInOut});
 
     TweenLite.delayedCall(3.5, BanTimeline.frame4);
   },
   frame4: function () {
-
+    TweenLite.to(sawCut,0 , {opacity:0, delay:.2, ease: Quad.easeOut});
     TweenLite.to(f4_img1, .1, {opacity:0, display: 'block', delay: 0, ease: Quad.easeInOut});
     TweenLite.to(f4_img2, .1, {opacity:0, display: 'block', delay: 0, ease: Quad.easeInOut});
 

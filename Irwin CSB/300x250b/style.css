@@ -17,3 +17,7 @@ left:-200px;
 	left: 190px;
 	top: 230px;
 }
+#sawCut {
+z-index:0;
+opacity: 0;
+}
