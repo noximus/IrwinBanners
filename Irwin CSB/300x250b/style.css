@@ -1,7 +1,7 @@
   @charset "UTF-8";
 /* CSS Document */
 body{margin:0;}
-#container {box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;position: absolute;width:300px;height:250px; border:solid;border-color:#000;border-width:1px;overflow:hidden;}
+#container {box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;cursor:pointer;position: absolute;width:300px;height:250px; border:solid;border-color:#000;border-width:1px;overflow:hidden;}
 .show{position: absolute;display:block;opacity:1;}
 .hidden{position: absolute;display:none;opacity:0;}
 #f1_bluebox{top:12px;left:22px;}
@@ -11,8 +11,8 @@ body{margin:0;}
 #f5_txt4, #f5_txt3{
 position: absolute;
 left:-200px;
-
 }
+
 #blurrySaw1{
 	left: 190px;
 	top: 230px;
