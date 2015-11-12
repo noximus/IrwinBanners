@@ -8,10 +8,10 @@ body{margin:0;}
 #f4_img1{top:0px; left:0px; z-index:1;}
 #f6_img1{left:130px;}
 #text_background {z-index:-1;}
-#url_txt, #f5_txt3{
+/*#url_txt, #f5_txt3{
 position: absolute;
 left:-200px;
-}
+}*/
 #bg {
 z-index:-2;
 }

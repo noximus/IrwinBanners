@@ -22,8 +22,8 @@ var BanTimeline = {
 
     TweenLite.to(bg, .5, {left:550, scaleX:1, scaleY:1, ease: Quad.easeInOut });
     // TweenLite.to(f2_img1, .5, {left:0, top:0, scaleX:1, scaleY:1, ease: Quad.easeInOut});
-    TweenLite.to(saw, 1.2 , {scaleX:.01, scaleY:.01,left:424,top:-110, delay: 0, ease: Quad.easeOut});
-     TweenLite.to(sawCut, .2 , {opacity:1,delay: .6, ease: Quad.easeOut});
+    TweenLite.to(saw, 1.2 , {scaleX:.01, scaleY:.01,left:448,top:-90, delay: 0, ease: Quad.easeOut});
+     TweenLite.to(sawCut, .4 , {top:0,left:558,opacity:1,delay: .6});
     TweenLite.delayedCall(.8, BanTimeline.frame3);
   },
 
@@ -35,7 +35,8 @@ var BanTimeline = {
     TweenLite.delayedCall(3.5, BanTimeline.frame4);
   },
   frame4: function () {
-    TweenLite.to(sawCut,0 , {opacity:0, delay:.2, ease: Quad.easeOut});
+    TweenLite.to(saw, 0 , {opacity:0, delay:.2});
+    TweenLite.to(sawCut, 0 , {opacity:0, delay:.2, ease: Quad.easeOut});
     TweenLite.to(f4_img1, .1, {opacity:0, display: 'block', delay: 0, ease: Quad.easeInOut});
     TweenLite.to(f4_img2, .1, {opacity:0, display: 'block', delay: 0, ease: Quad.easeInOut});
 

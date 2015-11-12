@@ -1,7 +1,19 @@
   @charset "UTF-8";
 /* CSS Document */
 body{margin:0;}
-#container {box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;position: absolute;width:728px;height:90px; border:solid;border-color:#000;border-width:1px;overflow:hidden;}
+#container {box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	position: absolute;
+	width:728px;
+	height:90px;
+	border:solid;
+	border-color:#000;
+	border-width:1px;
+	overflow:hidden;
+	cursor: pointer;
+	z-index: 1000;
+}
 .show{position: absolute;display:block;opacity:1;}
 .hidden{position: absolute;display:none;opacity:0;}
 #f1_img2{top:0px;left:0px;}
@@ -9,15 +21,17 @@ body{margin:0;}
 #f6_img1{left:130px;}
 #text_background {z-index:-1;}
 #f5_txt4, #f5_txt3{
-position: absolute;
-
+	position: absolute;
 }
-#bg,#sawCut {
-z-index:-2;
-left:550px;
+#bg {
+	z-index:-2;
+	left:550px;
 }
 #sawCut{
 	opacity: 0;
+	z-index: -2;
+	left: 630px;
+	top: 90px;
 }
 #saw{
 	left: 586px;

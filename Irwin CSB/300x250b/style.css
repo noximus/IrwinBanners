@@ -4,8 +4,7 @@ body{margin:0;}
 #container {box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;cursor:pointer;position: absolute;width:300px;height:250px; border:solid;border-color:#000;border-width:1px;overflow:hidden;}
 .show{position: absolute;display:block;opacity:1;}
 .hidden{position: absolute;display:none;opacity:0;}
-#f1_bluebox{top:12px;left:22px;}
-#stronger{top:12px;left:300px;}
+#stronger{left:300px;}
 #f6_img1{left:130px;}
 
 #f5_txt4, #f5_txt3{
