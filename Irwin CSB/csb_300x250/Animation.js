@@ -27,14 +27,14 @@ var BanTimeline = {
     TweenLite.to(stronger, .5, {left:-6, delay: 0, ease: Quad.easeInOut});
 
     TweenLite.to(stronger, .5, {left:-300, delay: 3, ease: Quad.easeInOut});
+    TweenLite.to(bg, .5, {opacity:0, delay: 3, ease: Quad.easeOut});
+    TweenLite.to(blackCut, .3, {opacity: 0, delay: 3, ease: Quad.easeOut});
+    TweenLite.to(sawCut, 0, {opacity:0, delay:3, ease: Quad.easeOut});
     TweenLite.delayedCall(3.5, BanTimeline.frame4);
   },
   frame4: function () {
-    TweenLite.to(sawCut, 0, {opacity:0, delay:0, ease: Quad.easeOut});
-    TweenLite.to(bg, .2, {opacity:0, delay: 0, ease: Quad.easeOut});
-
-    TweenLite.to(bg, 0, {left:-214, delay: .2, ease: Quad.easeOut});
-    TweenLite.to(bg, .2, {opacity:1, delay: .2, ease: Quad.easeOut});
+    TweenLite.to(bg, 0, {left:-214, delay: 0, ease: Quad.easeOut});
+    TweenLite.to(bg, .5, {opacity:1, delay: 0, ease: Quad.easeOut});
 
     TweenLite.to(f5_bluebox,.2, {opacity:1, display: 'block', delay: 0, ease: Quad.easeIn });
     TweenLite.to(f5_txt1,.1, {opacity:1, display: 'block', delay: .2, ease: Quad.easeIn });
