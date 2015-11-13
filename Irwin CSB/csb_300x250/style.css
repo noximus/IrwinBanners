@@ -15,9 +15,17 @@ left:-200px;
 #blurrySaw1{
 	left: 190px;
 	top: 230px;
+	z-index: 1;
 }
 #sawCut {
 z-index:0;
 top: 130px;
 left: 110px;
+}
+#blackCut{
+	z-index:0;
+	position: absolute;
+	top: 95px;
+	left: 79px;
+	opacity: 0;
 }
