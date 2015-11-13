@@ -14,12 +14,12 @@ var BanTimeline = {
   frame1: function () {
     TweenLite.to(f1_img2, .5, {opacity:1, left:-300, display: 'block', delay: 1, ease: Back.easeInOut});
   
-    TweenLite.delayedCall(8 , BanTimeline.frame2);
+    TweenLite.delayedCall(1 , BanTimeline.frame2);
   },
   frame2: function () {
     TweenLite.to(f2_img1, 1, {opacity:1, display: 'block', delay: 0, ease: Quad.easeOut});
 
-    TweenLite.delayedCall(3, BanTimeline.frame3);
+    TweenLite.delayedCall(1, BanTimeline.frame3);
   },
   frame3: function () {
     TweenLite.to(f3_img1, .4, {opacity:1, display: 'block', ease: Quad.easeOut});

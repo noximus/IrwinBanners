@@ -17,6 +17,10 @@ left:-200px;
 	top: 230px;
 	z-index: 1;
 }
+#bg2{
+	position: absolute;
+	right: -13px;
+}
 #sawCut {
 z-index:0;
 top: 130px;
