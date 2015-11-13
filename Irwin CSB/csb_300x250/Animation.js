@@ -20,7 +20,7 @@ var BanTimeline = {
     TweenLite.to(blackCut, .15, {top: 0, left: 6, opacity: 1, delay: 1.5, ease: Quad.easeOut});
     TweenLite.to(blackCut, .8, {opacity: 1, delay: 1.5, ease: Quad.easeOut});
     TweenLite.to(sawCut, 0, {opacity: 1, delay: 1.5 , ease: Quad.easeOut});
-    // TweenLite.delayedCall(2, BanTimeline.frame3);
+    TweenLite.delayedCall(2, BanTimeline.frame3);
   },
 
   frame3: function () {
