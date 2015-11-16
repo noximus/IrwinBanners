@@ -6,6 +6,8 @@ var BanTimeline = {
     // TweenLite.to(bg, 0, {left:200, scaleX:2, scaleY:2});
 
     TweenLite.to(blurrySaw1, 0, {scaleX:2, scaleY:2});
+    TweenLite.to(blurrySaw2, 0, {scaleX:2, scaleY:2});
+    TweenLite.to(blurrySaw3, 0, {scaleX:2, scaleY:2});
 
     BanTimeline.frame1();
   },
@@ -16,6 +18,60 @@ var BanTimeline = {
   frame2: function () {
     // TweenLite.to(bg, 1, {left:0,scaleX:1, scaleY:1, delay:0});
     TweenLite.to(blurrySaw1, 1.3, {scaleX:.01, scaleY:.01,left:-60,top:-75, delay: 1, ease: Quad.easeOut});
+    TweenLite.to(blurrySaw2, 1.3, {scaleX:.01, scaleY:.01,left:-60,top:-75, delay: 1, ease: Quad.easeOut});
+    TweenLite.to(blurrySaw3, 1.3, {scaleX:.01, scaleY:.01,left:-60,top:-75, delay: 1, ease: Quad.easeOut});
+   
+      TweenLite.to(blurrySaw1, 0, {display:"none",delay:1.2});
+      TweenLite.to(blurrySaw2, 0, {display:"block",delay:1.2});
+      TweenLite.to(blurrySaw2, 0, {display:"none",delay:1.25});
+      TweenLite.to(blurrySaw3, 0, {display:"block",delay:1.25});
+      TweenLite.to(blurrySaw3, 0, {display:"none",delay:1.3});
+      TweenLite.to(blurrySaw1, 0, {display:"block",delay:1.3});
+      TweenLite.to(blurrySaw1, 0, {display:"none",delay:1.35});
+      TweenLite.to(blurrySaw2, 0, {display:"block",delay:1.35});
+      TweenLite.to(blurrySaw2, 0, {display:"none",delay:1.4});
+      TweenLite.to(blurrySaw3, 0, {display:"block",delay:1.4});
+      TweenLite.to(blurrySaw3, 0, {display:"none",delay:1.45});
+      TweenLite.to(blurrySaw1, 0, {display:"block",delay:1.45});
+      TweenLite.to(blurrySaw1, 0, {display:"none",delay:1.5});
+      TweenLite.to(blurrySaw2, 0, {display:"block",delay:1.5});
+      TweenLite.to(blurrySaw2, 0, {display:"none",delay:1.55});
+      TweenLite.to(blurrySaw3, 0, {display:"block",delay:1.55});
+      TweenLite.to(blurrySaw3, 0, {display:"none",delay:1.6});
+      TweenLite.to(blurrySaw1, 0, {display:"block",delay:1.6});
+      TweenLite.to(blurrySaw1, 0, {display:"none",delay:1.65});
+      TweenLite.to(blurrySaw2, 0, {display:"block",delay:1.65});
+      TweenLite.to(blurrySaw2, 0, {display:"none",delay:1.7});
+      TweenLite.to(blurrySaw3, 0, {display:"block",delay:1.7});
+      TweenLite.to(blurrySaw3, 0, {display:"none",delay:1.75});
+      TweenLite.to(blurrySaw1, 0, {display:"block",delay:1.75});
+
+      TweenLite.to(blurrySaw1, 0, {display:"none",delay:1.8});
+      TweenLite.to(blurrySaw2, 0, {display:"block",delay:1.8});
+      TweenLite.to(blurrySaw2, 0, {display:"none",delay:1.85});
+      TweenLite.to(blurrySaw3, 0, {display:"block",delay:1.85});
+      TweenLite.to(blurrySaw3, 0, {display:"none",delay:1.9});
+      TweenLite.to(blurrySaw1, 0, {display:"block",delay:1.9});
+      TweenLite.to(blurrySaw1, 0, {display:"none",delay:1.95});
+      TweenLite.to(blurrySaw2, 0, {display:"block",delay:1.95});
+      TweenLite.to(blurrySaw2, 0, {display:"none",delay:2});
+      TweenLite.to(blurrySaw3, 0, {display:"block",delay:2});
+      TweenLite.to(blurrySaw3, 0, {display:"none",delay:2.05});
+      TweenLite.to(blurrySaw1, 0, {display:"block",delay:2.05});
+      TweenLite.to(blurrySaw1, 0, {display:"none",delay:2.1});
+      TweenLite.to(blurrySaw2, 0, {display:"block",delay:2.1});
+      TweenLite.to(blurrySaw2, 0, {display:"none",delay:2.15});
+      TweenLite.to(blurrySaw3, 0, {display:"block",delay:2.15});
+      TweenLite.to(blurrySaw3, 0, {display:"none",delay:2.2});
+      TweenLite.to(blurrySaw1, 0, {display:"block",delay:2.2});
+      TweenLite.to(blurrySaw1, 0, {display:"none",delay:2.25});
+      TweenLite.to(blurrySaw2, 0, {display:"block",delay:2.25});
+      TweenLite.to(blurrySaw2, 0, {display:"none",delay:2.3});
+      TweenLite.to(blurrySaw3, 0, {display:"block",delay:2.3});
+      TweenLite.to(blurrySaw3, 0, {display:"none",delay:2.35});
+      TweenLite.to(blurrySaw1, 0, {display:"block",delay:2.35});
+   
+
     TweenLite.to(sawCut, .7, {top: 0, left: 0, delay: 1.5});
     TweenLite.to(blackCut, .15, {top: 0, left: 6, opacity: 1, delay: 1.5, ease: Quad.easeOut});
     TweenLite.to(blackCut, .8, {opacity: 1, delay: 1.5, ease: Quad.easeOut});
