@@ -118,6 +118,24 @@ var BanTimeline = {
       TweenLite.to(blurrySaw2, 0, {display:"none",delay:1.86});
       TweenLite.to(blurrySaw3, 0, {display:"block",delay:1.86});
 
+      TweenLite.to(blurrySaw3, 0, {display:"none",delay:1.88});
+      TweenLite.to(blurrySaw2, 0, {display:"block",delay:1.88});
+   
+      TweenLite.to(blurrySaw2, 0, {display:"none",delay:1.9});
+      TweenLite.to(blurrySaw3, 0, {display:"block",delay:1.9});
+
+      TweenLite.to(blurrySaw3, 0, {display:"none",delay:1.92});
+      TweenLite.to(blurrySaw2, 0, {display:"block",delay:1.92});
+   
+      TweenLite.to(blurrySaw2, 0, {display:"none",delay:1.94});
+      TweenLite.to(blurrySaw3, 0, {display:"block",delay:1.94});
+
+      TweenLite.to(blurrySaw3, 0, {display:"none",delay:1.96});
+      TweenLite.to(blurrySaw2, 0, {display:"block",delay:1.96});
+   
+      TweenLite.to(blurrySaw2, 0, {display:"none",delay:1.98});
+      TweenLite.to(blurrySaw3, 0, {display:"block",delay:1.98});
+
 
 
     TweenLite.to(sawCut, .7, {top: 0, left: 0, delay: 1.5});
