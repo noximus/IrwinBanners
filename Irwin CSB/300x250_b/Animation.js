@@ -1,8 +1,5 @@
 var BanTimeline = {
   init: function () {
-    // initial settings for banner frame 1.  In case banner needs to restart.  add as many as you can to CSS first so Banner doesn't jump
-
-    // run animation after init is done. 
 
     TweenLite.to(blurrySaw2, 0, {scaleX:2, scaleY:2});
     TweenLite.to(blurrySaw3, 0, {scaleX:2, scaleY:2});
@@ -146,7 +143,7 @@ var BanTimeline = {
   },
 
   frame3: function () {
-    TweenLite.to(stronger, .5, {left:-6, delay: 0, ease: Quad.easeInOut});
+    TweenLite.to(stronger, .5, {left:30, delay: 0, ease: Quad.easeInOut});
 
     TweenLite.to(stronger, .5, {left:-300, delay: 3, ease: Quad.easeInOut});
     // TweenLite.to(bg, .5, {opacity:0, delay: 3, ease: Quad.easeOut});
