@@ -12,7 +12,7 @@ position: absolute;
 left:-200px;
 }
 
-#blurrySaw1,#blurrySaw2,#blurrySaw3{
+#blurrySaw2,#blurrySaw3{
 	left: 190px;
 	top: 230px;
 	z-index: 1;
