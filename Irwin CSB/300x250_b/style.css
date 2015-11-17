@@ -27,7 +27,7 @@ left:-200px;
 }
 #bg2{
 	position: absolute;
-	right: -4px;
+	right: -2px;
 }
 #sawCut {
 z-index:0;
@@ -54,11 +54,14 @@ top:21px;
 position: absolute;
     top: -25px;
     left: -33px;
-
+}
+#stronger_txt{
+	position: absolute;
+	left: -27px;
 }
 
 #textOne {
     position: absolute;
     top: -25px;
-    left: -23px;
+    left: -30px;
 }
