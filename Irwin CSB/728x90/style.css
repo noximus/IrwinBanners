@@ -17,27 +17,33 @@ body{margin:0;}
 .show{position: absolute;display:block;opacity:1;}
 .hidden{position: absolute;display:none;opacity:0;}
 #f1_img2{top:0px;left:0px;}
-#f4_img1{top:0px; left:0px; z-index:1;}
+#f4_img1{top:0px; left:0px; z-index:3;}
+#f4_img2{top:0px; left:0px; z-index:3;}
 #f6_img1{left:130px;}
-#text_background {z-index:-1;}
+#text_background {z-index:2;}
 #f5_txt4, #f5_txt3{
 	position: absolute;
+  z-index: 3;
 }
-#bg {
-	z-index:-2;
-	left:550px;
+#bg1{
+	z-index:1;
+	position: absolute;
+	right: 0;
+}
+#bg2{
+	right:-7px;
+	z-index:1;
+	position: absolute;
 }
 #sawCut{
 	opacity: 0;
-	z-index: -2;
-	left: 630px;
-	top: 90px;
+	z-index: 1;
+	left: 70px;
+	top: 80px;
 }
+
 #blurrySaw2, #blurrySaw3{
-	left: -100px;
-	top: 120px;
-}
-#animationCont{
-	left: -22px;
-	position: absolute;
+  left: -180px;
+  top: 80px;
+  z-index: 2;
 }
