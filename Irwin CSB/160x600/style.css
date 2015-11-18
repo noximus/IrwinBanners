@@ -22,3 +22,11 @@ z-index:-2;
 	top: 112px;
 	left: 98px;
 }
+#blurrySaw2,#blurrySaw3{
+	top: 270px;
+	left: 140px;
+}
+#animationCont{
+	top: -40px;
+	position: absolute;
+}

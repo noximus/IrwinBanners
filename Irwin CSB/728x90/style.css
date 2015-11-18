@@ -33,7 +33,11 @@ body{margin:0;}
 	left: 630px;
 	top: 90px;
 }
-#saw{
-	left: 586px;
-	top: 100px;
+#blurrySaw2, #blurrySaw3{
+	left: -100px;
+	top: 120px;
+}
+#animationCont{
+	left: -22px;
+	position: absolute;
 }
