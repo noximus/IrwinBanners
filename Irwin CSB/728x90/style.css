@@ -18,7 +18,6 @@ body{margin:0;}
 .hidden{position: absolute;display:none;opacity:0;}
 #f1_img2{top:0px;left:0px;}
 #f4_img1{top:0px; left:0px; z-index:3;}
-#f4_img2{top:0px; left:0px; z-index:3;}
 #f6_img1{left:130px;}
 #text_background {z-index:2;}
 #f5_txt4, #f5_txt3{
@@ -31,7 +30,7 @@ body{margin:0;}
 	right: 0;
 }
 #bg2{
-	right:-7px;
+	right:-2px;
 	z-index:1;
 	position: absolute;
 }
@@ -43,7 +42,7 @@ body{margin:0;}
 }
 
 #blurrySaw2, #blurrySaw3{
-  left: -180px;
-  top: 80px;
+  left: -930px;
+  top: 100px;
   z-index: 2;
 }

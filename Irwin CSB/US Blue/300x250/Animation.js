@@ -157,8 +157,9 @@ var BanTimeline = {
     TweenLite.to(bg2, .5, {display:"block",opacity:1, delay: 0, ease: Quad.easeOut});
     TweenLite.to(f5_txt1,.1, {opacity:1, display: 'block', delay: .2, ease: Quad.easeIn });
     TweenLite.to(f5_txt2,.1, {opacity:1, display: 'block', delay: .2, ease: Quad.easeIn });
-    TweenLite.to(f5_txt3,.3, {opacity:1, left:0, display: 'block', delay: .8, ease: Quad.easeOut });
+    TweenLite.to(f5_cta,.3, {opacity:1, left:0, display: 'block', delay: .8, ease: Quad.easeOut });
     TweenLite.to(f5_txt4,.3, {opacity:1, left:0, display: 'block', delay: .8, ease: Quad.easeOut });
+    // TweenLite.to(legal,.3, {opacity:1, left:0, display: 'block', delay: .8, ease: Quad.easeOut });
     
 
   }

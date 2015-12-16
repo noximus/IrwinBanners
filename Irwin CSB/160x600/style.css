@@ -7,11 +7,11 @@ body{margin:0;}
 #weldtec{top:0px;left:0px;}
 #f4_img1{top:0px; left:0px; z-index:1;}
 #f6_img1{left:130px;}
-#text_background {z-index:-1;left: -2px}
-/*#url_txt, #f5_txt3{
-position: absolute;
-left:-200px;
-}*/
+#text_background {z-index:-1;left: -2px;background: #003366;position: absolute;bottom: 0;height: 350px; width:160px;}
+#f1_logo_cta{
+	position: absolute;
+	z-index: 3;
+}
 #bg {
 z-index:-2;
 position: absolute;
@@ -31,7 +31,7 @@ top: 40px;
 	top: 40px;
 }
 #blurrySaw2,#blurrySaw3{
-	top: 300px;
+	top: 580px;
 	left: 140px;
 	z-index: 2;
 	position: absolute;
