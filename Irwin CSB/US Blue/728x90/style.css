@@ -1,0 +1,48 @@
+  @charset "UTF-8";
+/* CSS Document */
+body{margin:0;}
+#container {box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	position: absolute;
+	width:728px;
+	height:90px;
+	border:solid;
+	border-color:#000;
+	border-width:1px;
+	overflow:hidden;
+	cursor: pointer;
+	z-index: 1000;
+}
+.show{position: absolute;display:block;opacity:1;}
+.hidden{position: absolute;display:none;opacity:0;}
+#f1_img2{top:0px;left:0px;}
+#f4_img1{top:0px; left:0px; z-index:3;}
+#f6_img1{left:130px;}
+#text_background {z-index:2;}
+#f5_txt4, #f5_txt3{
+	position: absolute;
+  z-index: 3;
+}
+#bg1{
+	z-index:1;
+	position: absolute;
+	right: 0;
+}
+#bg2{
+	right:-2px;
+	z-index:1;
+	position: absolute;
+}
+#sawCut{
+	opacity: 0;
+	z-index: 1;
+	left: 70px;
+	top: 80px;
+}
+
+#blurrySaw2, #blurrySaw3{
+  left: -930px;
+  top: 100px;
+  z-index: 2;
+}
