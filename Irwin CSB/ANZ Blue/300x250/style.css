@@ -1,0 +1,85 @@
+  @charset "UTF-8";
+/* CSS Document */
+body{margin:0;}
+#container {box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;cursor:pointer;position: absolute;width:300px;height:250px; border:solid;border-color:#000;border-width:1px;overflow:hidden;}
+.show{position: absolute;display:block;opacity:1;}
+.hidden{position: absolute;display:none;opacity:0;}
+#stronger {
+	width:241px;
+	height:229px;
+	top:21px;
+	left:300px;
+	background-color: #003366;
+}
+
+
+#f5_bluebox {
+
+    background-color: #003366;
+    width: 140px;
+    height: 250px;
+}
+#f5_txt_cont{
+	left: 5px;
+	position: absolute;
+}
+
+#f6_img1{left:130px;}
+
+#f5_txt4, #f5_cta{
+position: absolute;
+left:-200px;
+}
+
+#legal {
+position: absolute;
+/*top:215px;*/
+left:0px;
+}
+
+#blurrySaw2,#blurrySaw3{
+	left: 190px;
+	top: 230px;
+	z-index: 1;
+}
+#bg2{
+	position: absolute;
+	right: -2px;
+}
+#sawCut {
+z-index:0;
+top: 130px;
+left: 110px;
+}
+#blackCut{
+	z-index:0;
+	position: absolute;
+	top: 95px;
+	left: 79px;
+	opacity: 0;
+}
+
+#f1_bluebox {
+width:241px;
+height:229px;
+left:30px;
+top:21px;
+background-color: #003366;
+}
+
+#logo {
+position: absolute;
+    top: -25px;
+    left: -33px;
+}
+#stronger_txt{
+	position: absolute;
+	left: -27px;
+	top:-26px;
+}
+
+#textOne {
+    position: absolute;
+    top: -25px;
+    left: -30px;
+}

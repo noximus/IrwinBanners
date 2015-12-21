@@ -1,0 +1,48 @@
+  @charset "UTF-8";
+/* CSS Document */
+body{margin:0;}
+#container {box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;position: absolute;width:160px;height:600px; border:solid;border-color:#000;border-width:1px;overflow:hidden;}
+.show{position: absolute;display:block;opacity:1;}
+.hidden{position: absolute;display:none;opacity:0;}
+#weldtec{top:0px;left:0px;}
+#f4_img1{top:0px; left:0px; z-index:1;}
+#f6_img1{left:130px;}
+#text_background {z-index:-1;left: -2px;background: #003366;position: absolute;bottom: 0;height: 350px; width:160px;}
+#f1_logo_cta{
+	position: absolute;
+	z-index: 3;
+}
+#bg {
+z-index:-2;
+position: absolute;
+top: 40px;
+}
+#sawCut{
+	opacity: 1;
+	z-index: 1;
+	position: absolute;
+	top: 170px;
+	left: 130px;
+}
+#blackCut{
+	opacity: 0;
+	z-index: 1;
+	position: absolute;
+	top: 40px;
+}
+#blurrySaw2,#blurrySaw3{
+	top: 580px;
+	left: 140px;
+	z-index: 2;
+	position: absolute;
+}
+#animationCont{
+	top: -40px;
+	position: absolute;
+}
+#bg2{
+	position: absolute;
+	z-index: -2;
+/*	top: -33px;
+	left: -13px;*/
+}
